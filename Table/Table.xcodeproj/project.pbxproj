@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		D23DFB362A85402A00F2E49E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23DFB352A85402A00F2E49E /* AppDelegate.swift */; };
 		D23DFB382A85402A00F2E49E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23DFB372A85402A00F2E49E /* SceneDelegate.swift */; };
-		D23DFB3A2A85402A00F2E49E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23DFB392A85402A00F2E49E /* ViewController.swift */; };
 		D23DFB3D2A85402A00F2E49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23DFB3B2A85402A00F2E49E /* Main.storyboard */; };
 		D23DFB3F2A85402C00F2E49E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23DFB3E2A85402C00F2E49E /* Assets.xcassets */; };
 		D23DFB422A85402C00F2E49E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23DFB402A85402C00F2E49E /* LaunchScreen.storyboard */; };
+		D2EEF0F42A88D33400C47226 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEF0F32A88D33400C47226 /* TableViewController.swift */; };
+		D2EEF0F62A88D37F00C47226 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEF0F52A88D37F00C47226 /* AddViewController.swift */; };
+		D2EEF0F82A88D39000C47226 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEF0F72A88D39000C47226 /* DetailViewController.swift */; };
+		D2EEF0FC2A88D56100C47226 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = D2EEF0F92A88D56100C47226 /* pencil.png */; };
+		D2EEF0FD2A88D56100C47226 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = D2EEF0FA2A88D56100C47226 /* cart.png */; };
+		D2EEF0FE2A88D56100C47226 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = D2EEF0FB2A88D56100C47226 /* clock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D23DFB322A85402A00F2E49E /* Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23DFB352A85402A00F2E49E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D23DFB372A85402A00F2E49E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D23DFB392A85402A00F2E49E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D23DFB3C2A85402A00F2E49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D23DFB3E2A85402C00F2E49E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D23DFB412A85402C00F2E49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D23DFB432A85402C00F2E49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EEF0F32A88D33400C47226 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D2EEF0F52A88D37F00C47226 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		D2EEF0F72A88D39000C47226 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D2EEF0F92A88D56100C47226 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		D2EEF0FA2A88D56100C47226 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		D2EEF0FB2A88D56100C47226 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		D23DFB342A85402A00F2E49E /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				D2EEF0FA2A88D56100C47226 /* cart.png */,
+				D2EEF0FB2A88D56100C47226 /* clock.png */,
+				D2EEF0F92A88D56100C47226 /* pencil.png */,
 				D23DFB352A85402A00F2E49E /* AppDelegate.swift */,
+				D2EEF0F72A88D39000C47226 /* DetailViewController.swift */,
+				D2EEF0F52A88D37F00C47226 /* AddViewController.swift */,
+				D2EEF0F32A88D33400C47226 /* TableViewController.swift */,
 				D23DFB372A85402A00F2E49E /* SceneDelegate.swift */,
-				D23DFB392A85402A00F2E49E /* ViewController.swift */,
 				D23DFB3B2A85402A00F2E49E /* Main.storyboard */,
 				D23DFB3E2A85402C00F2E49E /* Assets.xcassets */,
 				D23DFB402A85402C00F2E49E /* LaunchScreen.storyboard */,
@@ -125,6 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2EEF0FE2A88D56100C47226 /* clock.png in Resources */,
+				D2EEF0FC2A88D56100C47226 /* pencil.png in Resources */,
+				D2EEF0FD2A88D56100C47226 /* cart.png in Resources */,
 				D23DFB422A85402C00F2E49E /* LaunchScreen.storyboard in Resources */,
 				D23DFB3F2A85402C00F2E49E /* Assets.xcassets in Resources */,
 				D23DFB3D2A85402A00F2E49E /* Main.storyboard in Resources */,
@@ -138,8 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D23DFB3A2A85402A00F2E49E /* ViewController.swift in Sources */,
 				D23DFB362A85402A00F2E49E /* AppDelegate.swift in Sources */,
+				D2EEF0F42A88D33400C47226 /* TableViewController.swift in Sources */,
+				D2EEF0F82A88D39000C47226 /* DetailViewController.swift in Sources */,
+				D2EEF0F62A88D37F00C47226 /* AddViewController.swift in Sources */,
 				D23DFB382A85402A00F2E49E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
