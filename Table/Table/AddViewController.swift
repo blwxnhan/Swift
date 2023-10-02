@@ -16,7 +16,6 @@ class AddViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataS
     var imageArray=[UIImage?]()
     var fileName = ""
 
-
     @IBOutlet var pickerImage: UIPickerView!
     @IBOutlet var tfAddItem: UITextField!
     @IBOutlet var imageView: UIImageView!
