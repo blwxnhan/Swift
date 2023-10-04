@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9D33F7E6-1048-4EAE-AEF1-DDAFD2F88C7E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB118EC4-239D-436C-B851-175B9E1A1E22"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Table/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "TableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BB118EC4-239D-436C-B851-175B9E1A1E22 - a6937826d39fe85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Table.TableViewController.tvListView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Table"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/practiceSwift/Table/Table/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "BB118EC4-239D-436C-B851-175B9E1A1E22 - c77f8e27ac7952b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Table.TableViewController.tvListView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Table"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/practiceSwift/Table/Table/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "BB118EC4-239D-436C-B851-175B9E1A1E22 - d5a03be55914bd97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Table.TableViewController.tvListView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Table"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/practiceSwift/Table/Table/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "BB118EC4-239D-436C-B851-175B9E1A1E22 - 150c968125ced50a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Table.TableViewController.tvListView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Table"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/practiceSwift/Table/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "BB118EC4-239D-436C-B851-175B9E1A1E22 - 3de7d98bd60c8cdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Table.TableViewController.init(style: __C.UITableViewStyle) -&gt; Table.TableViewController"
+                  moduleName = "Table"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/practiceSwift/Table/Table/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "BB118EC4-239D-436C-B851-175B9E1A1E22 - a6275049ed969d06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Table.TableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Table.TableViewController"
+                  moduleName = "Table"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/practiceSwift/Table/Table/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "BB118EC4-239D-436C-B851-175B9E1A1E22 - faf6674050d8be95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Table.TableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Table.TableViewController&gt;"
+                  moduleName = "Table"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/practiceSwift/Table/Table/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
