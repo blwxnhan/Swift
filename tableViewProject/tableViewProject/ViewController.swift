@@ -40,7 +40,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         myTableView.delegate = self
         myTableView.dataSource = self
         setConstraint()
-//        myTableView.frame = view.bounds
+        myTableView.frame = view.bounds
 
     }
     
