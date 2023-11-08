@@ -18,20 +18,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        
-        let firstViewController = UINavigationController(rootViewController: TodoListViewController())
-        let secondViewController = UINavigationController(rootViewController: SettingViewController())
-        
+                
         let tabBarController = UITabBarController()
-        tabBarController.setViewControllers([firstViewController,secondViewController], animated: true)
-        tabBarController.tabBar.tintColor = .red
+        tabBarController.setViewControllers([TodoListViewController(),SettingViewController()], animated: true)
+        tabBarController.tabBar.backgroundColor = .systemGray5
+        tabBarController.tabBar.tintColor = UIColor(hexCode: "274e13")
         
         if let items = tabBarController.tabBar.items {
-            items[0].selectedImage = UIImage(systemName: "folder.fill")
-            items[0].image = UIImage(systemName: "folder")
+            items[0].selectedImage = UIImage(systemName: "checkmark.circle.fill")
+            items[0].image = UIImage(systemName: "checkmark.circle.fill")
             items[0].title = "Tasks"
-            items[1].selectedImage = UIImage(systemName: "screwdriver.fil1")
-            items[1].image = UIImage(systemName: "screwdriver")
+            items[1].selectedImage = UIImage(systemName: "gear")
+            items[1].image = UIImage(systemName: "gear")
             items[1].title = "Settings"
         }
         
