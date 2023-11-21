@@ -50,7 +50,5 @@ class EditViewController: UIViewController {
         else{
             isOn = false
         }
-        
-        
     }
 }
