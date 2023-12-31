@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2CFAE27B-1587-4860-B052-B2AF1201D4BA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA56A4D4-79D6-47C8-999E-C107A78B3B7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "practiceNetworkRefactoring/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "fetchButtonClick(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DA56A4D4-79D6-47C8-999E-C107A78B3B7D - 1c054d0348774ddf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in practiceNetworkRefactoring.ViewController.fetchButtonClick(__C.UIButton) -&gt; ()"
+                  moduleName = "practiceNetworkRefactoring"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/Swift/practiceNetworkRefactoring/practiceNetworkRefactoring/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "DA56A4D4-79D6-47C8-999E-C107A78B3B7D - 94408120dcc6d9d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async throws -&gt; () in practiceNetworkRefactoring.ViewController.fetchButtonClick(__C.UIButton) -&gt; ()"
+                  moduleName = "practiceNetworkRefactoring"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/Swift/practiceNetworkRefactoring/practiceNetworkRefactoring/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "DA56A4D4-79D6-47C8-999E-C107A78B3B7D - 4b6c8ea44deac039"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in practiceNetworkRefactoring.ViewController.fetchButtonClick(__C.UIButton) -&gt; ()"
+                  moduleName = "practiceNetworkRefactoring"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/Swift/practiceNetworkRefactoring/practiceNetworkRefactoring/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "DA56A4D4-79D6-47C8-999E-C107A78B3B7D - 10c06f78cf53862a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in practiceNetworkRefactoring.ViewController.fetchButtonClick(__C.UIButton) -&gt; ()"
+                  moduleName = "practiceNetworkRefactoring"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/Swift/practiceNetworkRefactoring/practiceNetworkRefactoring/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "DA56A4D4-79D6-47C8-999E-C107A78B3B7D - 1c054d0348774ddf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in practiceNetworkRefactoring.ViewController.fetchButtonClick(__C.UIButton) -&gt; ()"
+                  moduleName = "practiceNetworkRefactoring"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/Swift/practiceNetworkRefactoring/practiceNetworkRefactoring/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "DA56A4D4-79D6-47C8-999E-C107A78B3B7D - 4b6c8ea44deac039"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in practiceNetworkRefactoring.ViewController.fetchButtonClick(__C.UIButton) -&gt; ()"
+                  moduleName = "practiceNetworkRefactoring"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/Swift/practiceNetworkRefactoring/practiceNetworkRefactoring/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "DA56A4D4-79D6-47C8-999E-C107A78B3B7D - 10c06f78cf53862a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in practiceNetworkRefactoring.ViewController.fetchButtonClick(__C.UIButton) -&gt; ()"
+                  moduleName = "practiceNetworkRefactoring"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/Swift/practiceNetworkRefactoring/practiceNetworkRefactoring/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "DA56A4D4-79D6-47C8-999E-C107A78B3B7D - 10c06f78cf53862a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in practiceNetworkRefactoring.ViewController.fetchButtonClick(__C.UIButton) -&gt; ()"
+                  moduleName = "practiceNetworkRefactoring"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bowonhan/Documents/Swift/practiceNetworkRefactoring/practiceNetworkRefactoring/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
