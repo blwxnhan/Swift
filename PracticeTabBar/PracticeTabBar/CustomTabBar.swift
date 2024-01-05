@@ -35,7 +35,6 @@ class CustomTabBar : UIView {
         }
         
         tabBar.snp.makeConstraints {
-//            $0.bottom.equalTo(safeAreaLayoutGuide)
             $0.top.bottom.leading.trailing.equalToSuperview()
             $0.height.equalTo(80)
         }

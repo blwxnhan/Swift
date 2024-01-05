@@ -67,10 +67,10 @@ class ButtonStackView : UIView {
         }
         
         buttonStackView.snp.makeConstraints {
-            $0.bottom.top.leading.trailing.equalToSuperview()
-//            $0.leading.equalTo(safeAreaLayoutGuide)
-//            $0.trailing.equalTo(safeAreaLayoutGuide)
-//            $0.height.equalTo(60)
+            $0.bottom.equalTo(safeAreaLayoutGuide)
+            $0.leading.equalTo(safeAreaLayoutGuide)
+            $0.trailing.equalTo(safeAreaLayoutGuide)
+            $0.height.equalTo(60)
         }
     }
 }
