@@ -8,7 +8,6 @@
 import Foundation
 
 class Observable<T> {
-    
     // value 변경 시 didset에 의해 변경 -> 이 값을 가지고 listener 동작을 함
     var value: T? {
         didSet {
