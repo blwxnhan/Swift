@@ -7,119 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29790C822B4A5EB900C05C96 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29790C812B4A5EB900C05C96 /* TabBarController.swift */; };
-		299CCE692B46D9260054505E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCE682B46D9260054505E /* AppDelegate.swift */; };
-		299CCE6B2B46D9260054505E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCE6A2B46D9260054505E /* SceneDelegate.swift */; };
-		299CCE6D2B46D9260054505E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCE6C2B46D9260054505E /* ViewController.swift */; };
-		299CCE722B46D9270054505E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299CCE712B46D9270054505E /* Assets.xcassets */; };
-		299CCE7D2B46D9FA0054505E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCE7C2B46D9FA0054505E /* FirstViewController.swift */; };
-		29A6E9A32B4791B700361FBC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A6E9A22B4791B700361FBC /* SecondViewController.swift */; };
-		29A6E9A62B4791CD00361FBC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 29A6E9A52B4791CD00361FBC /* SnapKit */; };
-		29A6E9A82B4791F600361FBC /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A6E9A72B4791F600361FBC /* CustomTabBar.swift */; };
-		29A6E9AA2B479B9800361FBC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A6E9A92B479B9800361FBC /* Extension.swift */; };
-		29A6E9AC2B47D42800361FBC /* ButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A6E9AB2B47D42800361FBC /* ButtonStackView.swift */; };
+		29790C672B4A43D700C05C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29790C662B4A43D700C05C96 /* AppDelegate.swift */; };
+		29790C692B4A43D700C05C96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29790C682B4A43D700C05C96 /* SceneDelegate.swift */; };
+		29790C6B2B4A43D700C05C96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29790C6A2B4A43D700C05C96 /* ViewController.swift */; };
+		29790C6E2B4A43D700C05C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29790C6C2B4A43D700C05C96 /* Main.storyboard */; };
+		29790C702B4A43D800C05C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29790C6F2B4A43D800C05C96 /* Assets.xcassets */; };
+		29790C732B4A43D800C05C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29790C712B4A43D800C05C96 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29790C812B4A5EB900C05C96 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		299CCE652B46D9260054505E /* PracticeTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		299CCE682B46D9260054505E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		299CCE6A2B46D9260054505E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		299CCE6C2B46D9260054505E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		299CCE712B46D9270054505E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		299CCE762B46D9270054505E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		299CCE7C2B46D9FA0054505E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		29A6E9A22B4791B700361FBC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		29A6E9A72B4791F600361FBC /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-		29A6E9A92B479B9800361FBC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		29A6E9AB2B47D42800361FBC /* ButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStackView.swift; sourceTree = "<group>"; };
+		29790C632B4A43D700C05C96 /* PracticeLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29790C662B4A43D700C05C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29790C682B4A43D700C05C96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29790C6A2B4A43D700C05C96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29790C6D2B4A43D700C05C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29790C6F2B4A43D800C05C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29790C722B4A43D800C05C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29790C742B4A43D800C05C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		299CCE622B46D9260054505E /* Frameworks */ = {
+		29790C602B4A43D700C05C96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29A6E9A62B4791CD00361FBC /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		299CCE5C2B46D9260054505E = {
+		29790C5A2B4A43D700C05C96 = {
 			isa = PBXGroup;
 			children = (
-				299CCE672B46D9260054505E /* PracticeTabBar */,
-				299CCE662B46D9260054505E /* Products */,
+				29790C652B4A43D700C05C96 /* PracticeLayout */,
+				29790C642B4A43D700C05C96 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		299CCE662B46D9260054505E /* Products */ = {
+		29790C642B4A43D700C05C96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				299CCE652B46D9260054505E /* PracticeTabBar.app */,
+				29790C632B4A43D700C05C96 /* PracticeLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		299CCE672B46D9260054505E /* PracticeTabBar */ = {
+		29790C652B4A43D700C05C96 /* PracticeLayout */ = {
 			isa = PBXGroup;
 			children = (
-				299CCE682B46D9260054505E /* AppDelegate.swift */,
-				299CCE6A2B46D9260054505E /* SceneDelegate.swift */,
-				299CCE6C2B46D9260054505E /* ViewController.swift */,
-				29A6E9A72B4791F600361FBC /* CustomTabBar.swift */,
-				29A6E9AB2B47D42800361FBC /* ButtonStackView.swift */,
-				299CCE7C2B46D9FA0054505E /* FirstViewController.swift */,
-				29A6E9A22B4791B700361FBC /* SecondViewController.swift */,
-				29A6E9A92B479B9800361FBC /* Extension.swift */,
-				299CCE712B46D9270054505E /* Assets.xcassets */,
-				299CCE762B46D9270054505E /* Info.plist */,
-				29790C812B4A5EB900C05C96 /* TabBarController.swift */,
+				29790C662B4A43D700C05C96 /* AppDelegate.swift */,
+				29790C682B4A43D700C05C96 /* SceneDelegate.swift */,
+				29790C6A2B4A43D700C05C96 /* ViewController.swift */,
+				29790C6C2B4A43D700C05C96 /* Main.storyboard */,
+				29790C6F2B4A43D800C05C96 /* Assets.xcassets */,
+				29790C712B4A43D800C05C96 /* LaunchScreen.storyboard */,
+				29790C742B4A43D800C05C96 /* Info.plist */,
 			);
-			path = PracticeTabBar;
+			path = PracticeLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		299CCE642B46D9260054505E /* PracticeTabBar */ = {
+		29790C622B4A43D700C05C96 /* PracticeLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 299CCE792B46D9270054505E /* Build configuration list for PBXNativeTarget "PracticeTabBar" */;
+			buildConfigurationList = 29790C772B4A43D800C05C96 /* Build configuration list for PBXNativeTarget "PracticeLayout" */;
 			buildPhases = (
-				299CCE612B46D9260054505E /* Sources */,
-				299CCE622B46D9260054505E /* Frameworks */,
-				299CCE632B46D9260054505E /* Resources */,
+				29790C5F2B4A43D700C05C96 /* Sources */,
+				29790C602B4A43D700C05C96 /* Frameworks */,
+				29790C612B4A43D700C05C96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PracticeTabBar;
-			packageProductDependencies = (
-				29A6E9A52B4791CD00361FBC /* SnapKit */,
-			);
-			productName = PracticeTabBar;
-			productReference = 299CCE652B46D9260054505E /* PracticeTabBar.app */;
+			name = PracticeLayout;
+			productName = PracticeLayout;
+			productReference = 29790C632B4A43D700C05C96 /* PracticeLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		299CCE5D2B46D9260054505E /* Project object */ = {
+		29790C5B2B4A43D700C05C96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					299CCE642B46D9260054505E = {
+					29790C622B4A43D700C05C96 = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = 299CCE602B46D9260054505E /* Build configuration list for PBXProject "PracticeTabBar" */;
+			buildConfigurationList = 29790C5E2B4A43D700C05C96 /* Build configuration list for PBXProject "PracticeLayout" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,51 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 299CCE5C2B46D9260054505E;
-			packageReferences = (
-				29A6E9A42B4791CD00361FBC /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
-			productRefGroup = 299CCE662B46D9260054505E /* Products */;
+			mainGroup = 29790C5A2B4A43D700C05C96;
+			productRefGroup = 29790C642B4A43D700C05C96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				299CCE642B46D9260054505E /* PracticeTabBar */,
+				29790C622B4A43D700C05C96 /* PracticeLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		299CCE632B46D9260054505E /* Resources */ = {
+		29790C612B4A43D700C05C96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299CCE722B46D9270054505E /* Assets.xcassets in Resources */,
+				29790C732B4A43D800C05C96 /* LaunchScreen.storyboard in Resources */,
+				29790C702B4A43D800C05C96 /* Assets.xcassets in Resources */,
+				29790C6E2B4A43D700C05C96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		299CCE612B46D9260054505E /* Sources */ = {
+		29790C5F2B4A43D700C05C96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299CCE6D2B46D9260054505E /* ViewController.swift in Sources */,
-				299CCE692B46D9260054505E /* AppDelegate.swift in Sources */,
-				29A6E9AA2B479B9800361FBC /* Extension.swift in Sources */,
-				29790C822B4A5EB900C05C96 /* TabBarController.swift in Sources */,
-				299CCE7D2B46D9FA0054505E /* FirstViewController.swift in Sources */,
-				29A6E9A32B4791B700361FBC /* SecondViewController.swift in Sources */,
-				29A6E9AC2B47D42800361FBC /* ButtonStackView.swift in Sources */,
-				29A6E9A82B4791F600361FBC /* CustomTabBar.swift in Sources */,
-				299CCE6B2B46D9260054505E /* SceneDelegate.swift in Sources */,
+				29790C6B2B4A43D700C05C96 /* ViewController.swift in Sources */,
+				29790C672B4A43D700C05C96 /* AppDelegate.swift in Sources */,
+				29790C692B4A43D700C05C96 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		29790C6C2B4A43D700C05C96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29790C6D2B4A43D700C05C96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29790C712B4A43D800C05C96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29790C722B4A43D800C05C96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		299CCE772B46D9270054505E /* Debug */ = {
+		29790C752B4A43D800C05C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		299CCE782B46D9270054505E /* Release */ = {
+		29790C762B4A43D800C05C96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +285,7 @@
 			};
 			name = Release;
 		};
-		299CCE7A2B46D9270054505E /* Debug */ = {
+		29790C782B4A43D800C05C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -299,9 +294,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F7GYZYWC6V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PracticeTabBar/Info.plist;
+				INFOPLIST_FILE = PracticeLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bwcompany.PracticeTabBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwcompany.PracticeLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +313,7 @@
 			};
 			name = Debug;
 		};
-		299CCE7B2B46D9270054505E /* Release */ = {
+		29790C792B4A43D800C05C96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -326,9 +322,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F7GYZYWC6V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PracticeTabBar/Info.plist;
+				INFOPLIST_FILE = PracticeLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bwcompany.PracticeTabBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwcompany.PracticeLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,44 +344,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		299CCE602B46D9260054505E /* Build configuration list for PBXProject "PracticeTabBar" */ = {
+		29790C5E2B4A43D700C05C96 /* Build configuration list for PBXProject "PracticeLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				299CCE772B46D9270054505E /* Debug */,
-				299CCE782B46D9270054505E /* Release */,
+				29790C752B4A43D800C05C96 /* Debug */,
+				29790C762B4A43D800C05C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		299CCE792B46D9270054505E /* Build configuration list for PBXNativeTarget "PracticeTabBar" */ = {
+		29790C772B4A43D800C05C96 /* Build configuration list for PBXNativeTarget "PracticeLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				299CCE7A2B46D9270054505E /* Debug */,
-				299CCE7B2B46D9270054505E /* Release */,
+				29790C782B4A43D800C05C96 /* Debug */,
+				29790C792B4A43D800C05C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		29A6E9A42B4791CD00361FBC /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		29A6E9A52B4791CD00361FBC /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 29A6E9A42B4791CD00361FBC /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 299CCE5D2B46D9260054505E /* Project object */;
+	rootObject = 29790C5B2B4A43D700C05C96 /* Project object */;
 }

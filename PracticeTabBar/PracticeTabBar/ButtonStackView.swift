@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 
 class ButtonStackView : UIView {
-    private let buttonStackView : UIStackView = {
+    private let stackView : UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .horizontal
         stackView.distribution = .fillEqually
@@ -25,7 +25,7 @@ class ButtonStackView : UIView {
     private let registerImageButton = UIButton()
     
     private func buttonConfig() {
-        let imageConfig = UIImage.SymbolConfiguration(pointSize: 20, weight: .light)
+        let imageConfig = UIImage.SymbolConfiguration(pointSize: 25, weight: .light)
         let mainImage = UIImage(systemName: "house", withConfiguration: imageConfig)
         let registerImage = UIImage(systemName: "hanger", withConfiguration: imageConfig)
         let settingImage = UIImage(systemName: "ellipsis", withConfiguration: imageConfig)
@@ -57,20 +57,19 @@ class ButtonStackView : UIView {
         [mainButton,
          registerImageButton,
          settingButton].forEach {
-            buttonStackView.addArrangedSubview($0)
+            stackView.addArrangedSubview($0)
         }
         
         [mainButton,registerImageButton,settingButton].forEach {
             $0.snp.makeConstraints {
-                $0.height.equalTo(50)
+                $0.height.equalTo(55)
             }
         }
         
-        buttonStackView.snp.makeConstraints {
-            $0.bottom.equalTo(safeAreaLayoutGuide)
-            $0.leading.equalTo(safeAreaLayoutGuide)
-            $0.trailing.equalTo(safeAreaLayoutGuide)
-            $0.height.equalTo(60)
+        addSubview(stackView)
+        
+        stackView.snp.makeConstraints {
+            $0.top.bottom.leading.trailing.equalTo(self)
         }
     }
 }
