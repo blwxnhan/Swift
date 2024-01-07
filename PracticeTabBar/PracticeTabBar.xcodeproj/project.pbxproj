@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29790C822B4A5EB900C05C96 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29790C812B4A5EB900C05C96 /* TabBarController.swift */; };
+		2964E26D2B4A7E1F0086011C /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E26C2B4A7E1F0086011C /* CustomTabBarController.swift */; };
+		2964E26F2B4A7EBF0086011C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964E26E2B4A7EBF0086011C /* SettingViewController.swift */; };
 		299CCE692B46D9260054505E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCE682B46D9260054505E /* AppDelegate.swift */; };
 		299CCE6B2B46D9260054505E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCE6A2B46D9260054505E /* SceneDelegate.swift */; };
 		299CCE6D2B46D9260054505E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CCE6C2B46D9260054505E /* ViewController.swift */; };
@@ -21,7 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29790C812B4A5EB900C05C96 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2964E26C2B4A7E1F0086011C /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		2964E26E2B4A7EBF0086011C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		299CCE652B46D9260054505E /* PracticeTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299CCE682B46D9260054505E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		299CCE6A2B46D9260054505E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,13 +72,14 @@
 				299CCE6A2B46D9260054505E /* SceneDelegate.swift */,
 				299CCE6C2B46D9260054505E /* ViewController.swift */,
 				29A6E9A72B4791F600361FBC /* CustomTabBar.swift */,
+				2964E26C2B4A7E1F0086011C /* CustomTabBarController.swift */,
 				29A6E9AB2B47D42800361FBC /* ButtonStackView.swift */,
 				299CCE7C2B46D9FA0054505E /* FirstViewController.swift */,
 				29A6E9A22B4791B700361FBC /* SecondViewController.swift */,
+				2964E26E2B4A7EBF0086011C /* SettingViewController.swift */,
 				29A6E9A92B479B9800361FBC /* Extension.swift */,
 				299CCE712B46D9270054505E /* Assets.xcassets */,
 				299CCE762B46D9270054505E /* Info.plist */,
-				29790C812B4A5EB900C05C96 /* TabBarController.swift */,
 			);
 			path = PracticeTabBar;
 			sourceTree = "<group>";
@@ -157,9 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				299CCE6D2B46D9260054505E /* ViewController.swift in Sources */,
+				2964E26F2B4A7EBF0086011C /* SettingViewController.swift in Sources */,
 				299CCE692B46D9260054505E /* AppDelegate.swift in Sources */,
+				2964E26D2B4A7E1F0086011C /* CustomTabBarController.swift in Sources */,
 				29A6E9AA2B479B9800361FBC /* Extension.swift in Sources */,
-				29790C822B4A5EB900C05C96 /* TabBarController.swift in Sources */,
 				299CCE7D2B46D9FA0054505E /* FirstViewController.swift in Sources */,
 				29A6E9A32B4791B700361FBC /* SecondViewController.swift in Sources */,
 				29A6E9AC2B47D42800361FBC /* ButtonStackView.swift in Sources */,

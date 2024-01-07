@@ -9,6 +9,13 @@ import UIKit
 import SnapKit
 
 class CustomTabBar : UIView {
+    private let contentView : UIView = {
+        let contentView = UIView()
+        contentView.backgroundColor = .darkBlue
+        
+        return contentView
+    }()
+    
     private let tabBar : UITabBar = {
         let tabBar = UITabBar()
         tabBar.tintColor = .darkBlue
@@ -29,12 +36,20 @@ class CustomTabBar : UIView {
     }
     
     private func setLayout(){
-        [tabBar,buttonStackView].forEach {
+        [contentView,
+         tabBar,
+         buttonStackView].forEach {
             addSubview($0)
         }
         
+        contentView.snp.makeConstraints {
+            $0.top.leading.trailing.equalTo(self)
+            $0.bottom.equalTo(tabBar.snp.top)
+        }
+        
         tabBar.snp.makeConstraints {
-            $0.bottom.leading.trailing.top.equalTo(self)
+            $0.leading.trailing.bottom.equalTo(self)
+            $0.top.equalTo(contentView.snp.bottom)
         }
     
         buttonStackView.snp.makeConstraints {
