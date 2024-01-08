@@ -8,6 +8,8 @@
 import UIKit
 import SnapKit
 
+// 필요없었다!
+
 class CustomTabBar : UIView {
     private let contentView : UIView = {
         let contentView = UIView()
@@ -37,10 +39,12 @@ class CustomTabBar : UIView {
     
     private func setLayout(){
         [contentView,
-         tabBar,
-         buttonStackView].forEach {
+         tabBar].forEach {
             addSubview($0)
         }
+        
+        tabBar.addSubview(buttonStackView)
+        
         
         contentView.snp.makeConstraints {
             $0.top.leading.trailing.equalTo(self)
@@ -48,15 +52,15 @@ class CustomTabBar : UIView {
         }
         
         tabBar.snp.makeConstraints {
-            $0.leading.trailing.bottom.equalTo(self)
+            $0.leading.bottom.trailing.equalTo(self)
             $0.top.equalTo(contentView.snp.bottom)
         }
     
         buttonStackView.snp.makeConstraints {
-            $0.top.equalTo(tabBar.snp.top).offset(10)
-            $0.bottom.equalTo(tabBar.snp.bottom).offset(-10)
-            $0.leading.equalTo(tabBar.snp.leading).offset(10)
-            $0.trailing.equalTo(tabBar.snp.trailing).offset(-10)
+            $0.top.equalToSuperview().offset(10)
+            $0.bottom.equalToSuperview().offset(-50)
+            $0.leading.equalToSuperview().offset(20)
+            $0.trailing.equalToSuperview().offset(-20)
         }
     }
 }

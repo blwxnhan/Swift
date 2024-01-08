@@ -14,7 +14,7 @@ class ButtonStackView : UIView {
         stackView.axis = .horizontal
         stackView.distribution = .fillEqually
         stackView.alignment = .center
-        stackView.spacing = 30
+        stackView.spacing = 20
         stackView.backgroundColor = .skyBlue
         
         return stackView
@@ -25,7 +25,9 @@ class ButtonStackView : UIView {
     private let registerImageButton = UIButton()
     
     private func buttonConfig() {
-        let imageConfig = UIImage.SymbolConfiguration(pointSize: 25, weight: .light)
+        let imageConfig = UIImage.SymbolConfiguration(pointSize: 25, 
+                                                      weight: .medium,
+                                                      scale: .medium)
         let mainImage = UIImage(systemName: "house", withConfiguration: imageConfig)
         let registerImage = UIImage(systemName: "hanger", withConfiguration: imageConfig)
         let settingImage = UIImage(systemName: "ellipsis", withConfiguration: imageConfig)
@@ -37,7 +39,7 @@ class ButtonStackView : UIView {
         [mainButton,
          settingButton,
          registerImageButton].forEach {
-            $0.layer.cornerRadius = 10
+            $0.layer.cornerRadius = 17
             $0.backgroundColor = .white
             $0.imageView?.tintColor = .darkBlue
         }
@@ -62,7 +64,7 @@ class ButtonStackView : UIView {
         
         [mainButton,registerImageButton,settingButton].forEach {
             $0.snp.makeConstraints {
-                $0.height.equalTo(55)
+                $0.height.equalTo(50)
             }
         }
         

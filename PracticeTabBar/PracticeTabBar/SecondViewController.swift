@@ -19,6 +19,8 @@ class SecondViewController : UIViewController {
     private let button: UIButton = {
         let button = UIButton()
         button.setTitle("두번째 화면", for: .normal)
+        button.setTitleColor(.black, for: .normal)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         
         return button
     }()
